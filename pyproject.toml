@@ -17,7 +17,18 @@ classifiers = [
 ]
 license = "Apache-2.0 OR MIT"
 license-files = ["LICENSE.md"]
+dependencies = [
+    "bases",
+    "dag-cbor",
+    "ipld_dag_pb",
+    "multiformats",
+    "multiformats-config",
+    "typing-validation",
+    "typing-extensions",
+    "protobuf",
+]
 
 [project.urls]
 Homepage = "https://github.com/storacha/py-ipld-unixfs"
 Issues = "https://github.com/storacha/py-ipld-unixfs/issues"
+
